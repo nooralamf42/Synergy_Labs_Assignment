@@ -28,7 +28,7 @@ function UserData() {
     id: number;
   };
 
-  const { users, loading, error, setUsers} = useContext(AppContext);
+  const { users, loading, setUsers} = useContext(AppContext);
   let { userId }: any = useParams();
   const user: any = users.find(
     (user: UserType) => user.id == parseInt(userId)

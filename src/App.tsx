@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import AppContext from "./context/appContext";
-import Navbar from "./components/Navbar";
+import Navbar from "@/components/navbar";
 import { useEffect, useState } from "react";
 import { Toaster } from "@/components/ui/toaster"
 import { ErrorDisplay } from "./components/errorDisplay";
